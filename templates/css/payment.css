@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+
+
+
+
+
+.navbar{
+    background: #ffde50;
+    font-weight: bold;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    /* /* background-color:rgb(236, 231, 190); */
+     /* background-color: #f8ba57;
+background-image: linear-gradient(315deg, #f7b750 0%, #ebd33c 74%);  */
+}
+
+.title{
+    font-size: 1.5rem;
+    margin: 0.5rem;
+}
+
+.navbar{
+    height: 100%;
+}
+.nav{
+    padding-left: 50px;
+}
+
+
+
+
+  .box{
+    display: flex;
+  }
+  .right {
+    background-color:#f1eeee;
+
+  padding: 20px;
+
+
+  }
+  .right h3{
+      margin: 10px;
+  }
+
+
+  .button-div{
+      margin-top: 100px;
+  }
+  /* label{
+    margin-top: 8px;
+    margin-left: 174px;
+  } */
+  .col{
+    margin-bottom:86px;
+  }
+  #button{
+    margin: 37px;
+  }
+  .buttonpreview{
+
+    display: inline-block;
+    height: 40px;
+    box-shadow: 0 0 20px rgb(0 0 0 / 8%);
+  }
+  .secure{
+    
+    opacity: .6;
+    font-size: 12px;
+    line-height: 10px;
+  }
+  #myInput2,#myInput2-1{
+    cursor: pointer;
+    font-size: larger;
+    width: 212px;
+    text-align: center;
+    border: none;
+  }
+  .button{
+    cursor: pointer;
+    border-radius: 10px;
+    height: 49px;
+  }
+  .dark{
+    background-image: -webkit-linear-gradient(-35deg, #0d3858 25%, #ffde50 0%);
+    font-family: 'helvetica neue';
+  }
+  .light{
+    background-image: -webkit-linear-gradient(-35deg, #0d3858 25%, #e6e6e6 0%);
+    font-family: 'helvetica neue';
+  }
+  .dark-input{
+    background-image: -webkit-linear-gradient(-35deg, #0d3858 24%, #ffde50 0%);
+  }
+  .light-input{
+    background-image: -webkit-linear-gradient(-35deg, #0d3858 24%, #e6e6e6 0%);
+  }
+
+
+  .invisible{
+    display: none;
+  }
+
+.new{
+  margin-top: 13px;
+}
+
+
+ .form-2 label{
+  margin-left: 88px;
+ }
+
+  .col-2{
+    margin-bottom:24px;
+  }
+
+  .button-div-2{
+    margin-top: 54px;
+}
+.btn-2{
+  width:100px;height: 45px;
+  margin-top: 100px;
+}
+.navbar-2{
+  display: grid;
+  height: 102px;
+  background: #ffde50;
+  font-weight: bold;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.right-form{
+
+  z-index:99;
+  background-color: rgba(0,0,0,.03);
+  border-bottom: 1px solid rgba(0,0,0,.125);
+  /* margin-top: 0; */
+  position: absolute;
+
+  width: 441px;
+  height: 578px;
+  top: 70px;
+  left: 611px;
+}
+
+
+#donation-label,#donation-label-1{
+  color: black;
+  width: 100%;
+  border: none;
+  font-weight: bold;
+}
+.donation{
+  height: 34px;
+    width: 80%;
+    margin-top: 5px;
+}
+.navbar-button{
+  font-size: x-large;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  height: 59px;
+  background: #ffde50;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.col-3{
+  margin-bottom: 29px;
+}
+.scrollbar{
+  overflow-y: scroll;height: 387px;
+}
+.scrollbar::-webkit-scrollbar{
+  display: none;
+}
+
+.detail{
+  color: black;
+  width: 100%;
+  border: none;
+  font-weight: bold;
+}
+.required{
+  color: red;
+  float: left;
+}
