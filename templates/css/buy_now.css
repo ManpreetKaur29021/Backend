@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+
+*{
+
+   font-family: 'Poppins', sans-serif;
+}
+
+  #button{
+    margin: 37px;
+  }
+ .buttonpreview{
+    display: inline-block;
+    height: 40px;
+    cursor: pointer;
+    box-shadow: 0 0 20px rgb(0 0 0 / 8%);
+  }
+  .secure{
+    
+    opacity: .6;
+    font-size: 12px;
+    line-height: 10px;
+  }
+
+ #myInput3{
+   font-size: larger;
+    width: 212px;
+    text-align: center;
+    border: none;
+  }
+  .button{
+    cursor: pointer;
+    border-radius: 10px;
+    height: 49px;
+  }
+ 
+  .dark{
+    background-image: -webkit-linear-gradient(-35deg, #0d3858 25%, #ffde50 0%);
+    font-family: 'helvetica neue';
+  }
+  .light{
+    background-image: -webkit-linear-gradient(-35deg, #0d3858 25%, #e6e6e6 0%);
+    font-family: 'helvetica neue';
+  }
+  .dark-input{
+    background-image: -webkit-linear-gradient(-35deg, #0d3858 24%, #ffde50 0%);
+  }
+  .light-input{
+    background-image: -webkit-linear-gradient(-35deg, #0d3858 24%, #e6e6e6 0%);
+  }
+  .form{
+    z-index:99;
+    background: #e6e6e6;
+    /* margin-top: 0; */
+    position: absolute;
+  
+    width: 441px;
+    height: 578px;
+    top: 70px;
+    left: 535px;
+
+  }
+  .detail{
+    color: black;
+    width: 90%;
+    background: #e6e6e6;
+    border: none;
+    font-weight: bold;
+    margin-left: 5px;
+  }
+  
+
+  .form_header{
+    background: #ffde50 ;
+    height: 100px;
+    padding-top: 10px;
+  }
+
+  .form_header p{
+     margin-bottom: 0%;
+   margin-left:14px ;
+
+  }
+  .form_header h6{
+   margin-left:10px ;
+
+  }
+
+  .form_body{
+    width: 100%;
+    background: #e6e6e6 ;
+    float: left;
+    height: 471px;
+    border-bottom: 2px solid black;
+    
+  }
+  .form_header input{
+    margin-bottom: 0%;
+   margin-left:14px ;
+   background-color: #ffde50;
+   border: none;
+ }
+
+
+  .label{
+    margin-left: 5px;
+  }
+
+  .input{
+    height: 34px;
+    width: 80%;
+    margin-top: 5px;
+  }
+
+
+  .navbar-button{
+    font-size: x-large;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    height: 59px;
+    background: #ffde50;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+  }
+
+  .form_button button {
+    border: none;
+    text-decoration: none;
+    background: #ffde50;
+    height: 56px;
+    width: 104px;
+    margin-left: 182px;
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 106px;
+  }
+
+ 
+
